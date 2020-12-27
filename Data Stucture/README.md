@@ -38,3 +38,4 @@ $$
 \rm{If}\ A \equiv B (mod\ n),\ \rm{then}\ A+C \equiv B+C (mod\ N),\ \rm{and}\ AD \equiv BD (mod\ N)
 $$
 ###### *Remark: Interesting bug for GitHub markdown for *line switching* in aligned mathematical formula: Using normal $\LaTeX$ expression "\\\\" for line switching does not work as "\\\\" only showed single "\\" in GitHub markdown. In order to switch the line in formular, we need to use "\\\\\\\\" in .md file. But in markdown IDE like VSCode, "\\\\" is enough for switching the line. The reason is related to the [deep copy of macros](https://github.com/yzhang-gh/vscode-markdown/pull/451).
+![](/pic/error)
