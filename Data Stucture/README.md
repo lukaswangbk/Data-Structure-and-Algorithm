@@ -4,11 +4,11 @@ The concept of abstract data types and the advantages of data abstraction are in
 ### Exponents
 $$
 \begin{aligned}   
-X^{A}X^{B}&=X^{A+B}\\
-\frac{X^{A}}{X^{B}}&=X^{A-B}\\
-(X^{A})^{B}&=X^{AB}\\
-X^{N}+X^{N}&=2X^{N}\\
-2^{N}+2^{N}&=2^{N+1}
+X^{A}X^{B}&=X^{A+B}  \\
+\frac{X^{A}}{X^{B}}&=X^{A-B}  \\
+(X^{A})^{B}&=X^{AB}  \\
+X^{N}+X^{N}&=2X^{N}  \\
+2^{N}+2^{N}&=2^{N+1}  \\
 \end{aligned}
 $$
 ### Logarithms
