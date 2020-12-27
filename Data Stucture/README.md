@@ -25,17 +25,17 @@ $$
 ### Series 
 $$
 \begin{aligned}   
-\sum^{N}_{i=0}2^{i}&=2^{N+1}-1 \\\\
-\sum^{N}_{i=0}A^{i}&=\frac{A^{N+1}-1}{A-1} \\\\
-\sum^{N}_{i=0}A^{i}&\leq \frac{1}{A-1},\ 0<A<1,\ N\rightarrow \infin \\\\
-\sum^{N}_{i=1}i&=\frac{N(N+1)}{2}\approx \frac{N^{2}}{2} \\\\
-\sum^{N}_{i=1}i^{2}&=\frac{N(N+1)(2N+1)}{6}\approx \frac{N^{3}}{3} \\\\
-\sum^{N}_{i=1}i^{k}&\approx\frac{N^{k+1}}{|k+1|},\ k\neq -1 \\\\
+\sum^{N}\_{i=0}2^{i}&=2^{N+1}-1 \\\\
+\sum^{N}\_{i=0}A^{i}&=\frac{A^{N+1}-1}{A-1} \\\\
+\sum^{N}\_{i=0}A^{i}&\leq \frac{1}{A-1},\ 0<A<1,\ N\rightarrow \infin \\\\
+\sum^{N}\_{i=1}i&=\frac{N(N+1)}{2}\approx \frac{N^{2}}{2} \\\\
+\sum^{N}\_{i=1}i^{2}&=\frac{N(N+1)(2N+1)}{6}\approx \frac{N^{3}}{3} \\\\
+\sum^{N}\_{i=1}i^{k}&\approx\frac{N^{k+1}}{|k+1|},\ k\neq -1 \\\\
 \end{aligned}
 $$
 ### Modular Arithmetic
 $$
 \rm{If}\ A \equiv B (mod\ n),\ \rm{then}\ A+C \equiv B+C (mod\ N),\ \rm{and}\ AD \equiv BD (mod\ N)
 $$
-###### *Remark: Interesting bug for GitHub markdown for *line switching* in aligned mathematical formula: Using normal $\LaTeX$ expression "\\\\" for line switching does not work as "\\\\" only showed single "\\" in GitHub markdown. In order to switch the line in formular, we need to use "\\\\\\\\" in .md file. But in markdown IDE like VSCode, "\\\\" is enough for switching the line. The reason is related to the [deep copy of macros](https://github.com/yzhang-gh/vscode-markdown/pull/451).
+###### *Remark: Interesting bug for GitHub markdown for *line switching* in aligned mathematical formula: Using normal $\LaTeX$ expression "\\\\" for line switching does not work as "\\\\" only showed single "\\" in GitHub markdown. In order to switch the line in formular, we need to use "\\\\\\\\" in .md file. But in markdown IDE like VSCode, "\\\\" is enough for switching the line. The reason is related to the [deep copy of macros](https://github.com/yzhang-gh/vscode-markdown/pull/451). Similar problem is faced for character "\_", we need to change it to "\\\_" in GitHub markdown.
 ![](pic/error.png)
