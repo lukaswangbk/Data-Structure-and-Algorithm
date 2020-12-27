@@ -14,7 +14,7 @@ $$
 ### Logarithms
 $$
 \begin{aligned}   
-X^{A}&=B \ \rm{iff}\ \log_{X}B=A \\\\
+X^{A}&=B\ \ \rm{iff}\ \log_{X}B=A \\\\
 \log_{A}B&=\frac{\log_{C}B}{\log_{C}A};\ A,B,C>0,\ A\neq 1\\\\
 \log AB&=\log A + \log B;\ A,B>0\\\\
 \log \frac{A}{B}&=\log A - \log B\\\\
