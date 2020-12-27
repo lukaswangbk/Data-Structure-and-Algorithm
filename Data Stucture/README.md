@@ -27,7 +27,7 @@ $$
 \begin{aligned}   
 \sum^{N}\_{i=0}2^{i}&=2^{N+1}-1 \\\\
 \sum^{N}\_{i=0}A^{i}&=\frac{A^{N+1}-1}{A-1} \\\\
-\sum^{N}\_{i=0}A^{i}&\leq \frac{1}{A-1},\ 0<A<1,\ N\rightarrow \infin \\\\
+\sum^{N}\_{i=0}A^{i}&\leq \frac{1}{A-1},\ 0<A<1,\ N\rightarrow ∞ \\\\
 \sum^{N}\_{i=1}i&=\frac{N(N+1)}{2}\approx \frac{N^{2}}{2} \\\\
 \sum^{N}\_{i=1}i^{2}&=\frac{N(N+1)(2N+1)}{6}\approx \frac{N^{3}}{3} \\\\
 \sum^{N}\_{i=1}i^{k}&\approx\frac{N^{k+1}}{|k+1|},\ k\neq -1 \\\\
