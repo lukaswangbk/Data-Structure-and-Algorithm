@@ -48,7 +48,7 @@ Given two functions, $f(N)$ and $g(N)$, we use following notion for comparing th
 Rules:
 - if $T_{1}(N)=\mathcal{O}(f(N))$ and $T_{2}(N)=\mathcal{O}(g(N))$, then
   - $T_{1}(N)+T_{2}(N)=\max (\mathcal{O}(f(N)),\mathcal{O}(g(N)))$
-  - $T_{1}(N)**T_{2}(N)=\mathcal{O}(f(N))*\mathcal{O}(g(N))$
+  - $T_{1}(N)*T_{2}(N)=\mathcal{O}(f(N))*\mathcal{O}(g(N))$
 - If $T(N)$ is a polynomial of degree k, then $T(N)=(N^{k})$
 - $\log^{k}N=\mathcal{O}(N)$ for any constant $k$
 
@@ -69,8 +69,14 @@ Special Recurrence Types:
   Pluge in $a_{0}=k,\ a_{1}=l,$ then $U_{n}$ can be solved.
 Common Recurrence Types:
 - Decrease-by-one
-  $T(n)=T(n-1)+f(n)$
+  $$
+  T(n)=T(n-1)+f(n)
+  $$
 - Decrease-by-a-constant-factor
-  $T(n)=T(n/b)+f(n)$
+  $$
+  T(n)=T(n/b)+f(n)
+  $$
 - Divide-and-conquer
-  $T(n)=aT(n/b)+f(n)$
+  $$
+  T(n)=aT(n/b)+f(n)
+  $$
