@@ -48,7 +48,7 @@ Given two functions, $f(N)$ and $g(N)$, we use following notion for comparing th
 Rules:
 - if $T_{1}(N)=\mathcal{O}(f(N))$ and $T_{2}(N)=\mathcal{O}(g(N))$, then
   - $T_{1}(N)+T_{2}(N)=\max (\mathcal{O}(f(N)),\mathcal{O}(g(N)))$
-  - $T_{1}(N)*T_{2}(N)=\mathcal{O}(f(N))*\mathcal{O}(g(N))$
+  - $T_{1}(N)\*T_{2}(N)=\mathcal{O}(f(N))*\mathcal{O}(g(N))$
 - If $T(N)$ is a polynomial of degree k, then $T(N)=(N^{k})$
 - $\log^{k}N=\mathcal{O}(N)$ for any constant $k$
 
